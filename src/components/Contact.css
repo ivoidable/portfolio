@@ -1,0 +1,100 @@
+.centered {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --mainColor: rgb(43, 43, 43);
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+}
+
+input, textarea {
+    outline: none;
+    border-radius: 6px;
+}
+
+.contact-form h1 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.bros {
+    height: 3rem;
+    display: inline;
+    width: 12.5rem;
+}
+
+input {
+    height: 3rem;
+    display: flex;
+    width: 25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 25rem;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: auto;
+
+    height: 43vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn {
+    background-color: var(--secondaryColor);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: larger;
+        margin-left: 9%;
+    }
+
+    .bros {
+        width: 10.25rem;
+        height: 2rem;
+    }
+
+    #name {
+        margin-left: 9%;
+        margin-right: 10px;
+    }
+
+    #subject {
+        margin-left: 9%;
+        width: 21.25rem;
+    }
+
+    .submit-btn {
+        margin-top: 10px;
+        margin-left: 9%;
+        width: 21.25rem;
+    }
+
+    #message {
+        margin-top: 10px;
+        position: relative;
+        margin-left: 10%;
+        padding-right: 10%;
+        max-width: min-content;
+        right: .35rem;
+        z-index: 0;
+    }
+}

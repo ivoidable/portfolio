@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1024px) {
+    h1 {
+        z-index: -1;
+    }
+}
+
+img {
+    height: 64px;
+    z-index: 2;
+}
+
+html {
+    background-color: rgb(28, 28, 28);
+}
+
+.footer {
+    background-color: rgb(43, 43, 43);
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    height: 5rem;
+    text-align: center;
+}
+
+/* SOCIAL */
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateX(-2px);
+}
+
+a.twitter {
+    color: white;
+}
+
+a.instagram {
+    color: white;
+}
+
+a.linkedin {
+    color: white;
+}
